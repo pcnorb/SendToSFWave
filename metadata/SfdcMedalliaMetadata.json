@@ -1,0 +1,86 @@
+{
+    "fileFormat": {
+    "charsetName": "UTF-8",
+    "fieldsEnclosedBy": "\"",
+    "fieldsDelimitedBy": ",",
+    "numberOfLinesToIgnore": 1
+  },
+  "objects": [
+  {
+        "connector": "MedalliaPythonConnector",
+        "description": "",
+        "fullyQualifiedName": "MedalliaSurveys",
+        "label": "Medallia Surveys",
+        "name": "MedalliaSurveys",
+        "fields": [
+        {
+            "description": "",
+            "fullyQualifiedName": "MedalliaSurveys.PROMOTER_TYPE",
+            "label": "Promoter Type",
+            "name": "PROMOTER_TYPE",
+            "isSystemField": false,
+            "isUniqueId": false,
+            "isMultiValue": false,
+            "type": "Text"
+        },	            
+        {
+            "description": "",
+            "fullyQualifiedName": "MedalliaSurveys.SURVEY_RESPONSE_DATE",  
+            "label": "Survey Response Date",
+            "name": "SURVEY_RESPONSE_DATE",	
+            "isSystemField": false,
+            "isUniqueId": false,
+            "type": "Date",
+            "format": "yyyy-MM-dd",
+            "fiscalMonthOffset": 0
+        },
+        {
+            "description": "",
+            "fullyQualifiedName": "MedalliaSurveys.SURVEY_ID",
+            "label": "Survey Identifier",
+            "name": "SURVEY_ID",
+            "isSystemField": false,
+            "defaultValue": "0",
+            "isUniqueId": false,
+            "type": "Numeric",
+            "precision": 10,
+            "scale": 0
+        },
+        {
+            "description": "",
+            "fullyQualifiedName": "MedalliaSurveys.LIKELIHOOD_TO_RECOMMEND",
+            "label": "Likelyhood To Recommend",
+            "name": "LIKELIHOOD_TO_RECOMMEND",
+            "isSystemField": false,
+            "defaultValue": "0",
+            "isUniqueId": false,
+            "type": "Numeric",
+            "precision": 5,
+            "scale": 0
+        },
+        {
+            "description": "",
+            "fullyQualifiedName": "MedalliaSurveys.SUPPORT_SATISFACTION",
+            "label": "Support Satisfaction",
+            "name": "SUPPORT_SATISFACTION",
+            "isSystemField": false,
+            "defaultValue": "0",
+            "isUniqueId": false,
+            "type": "Numeric",
+            "precision": 5,
+            "scale": 0
+        },			
+        {
+            "description": "",
+            "fullyQualifiedName": "MedalliaSurveys.TICKET_NUM",
+            "label": "Ticket Number",
+            "name": "TICKET_NUM",
+            "isSystemField": false,
+            "isUniqueId": false,
+            "isMultiValue": false,
+            "type": "Text"
+        }	
+     ]
+	}
+  ]
+}
